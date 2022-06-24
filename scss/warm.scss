@@ -1,0 +1,124 @@
+@import "./var.scss";
+#warm {
+  padding-bottom: 8%;
+  .myrow {
+    display: flex;
+  }
+  h2 {
+    font-size: 30px;
+    color: $mainColor;
+    border-bottom: 1px solid $mainColor;
+    width: fit-content;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-weight: 600;
+  }
+  h3 {
+    line-height: 1.8;
+    font-size: 24px;
+  }
+
+  .kv {
+    padding-top: 8%;
+    .tx {
+      text-align: center;
+      width: 50%;
+    }
+    figure {
+      width: 60%;
+      margin-left: -10%;
+    }
+    p {
+      line-height: 2;
+      margin-top: 3%;
+      font-size: 16px;
+    }
+  }
+  .warm1 {
+    .myrow {
+      align-items: center;
+    }
+  }
+  .warm3 {
+    img {
+      width: 60%;
+      margin-left: 30%;
+    }
+  }
+  .content {
+    margin: 7% 0;
+    .tx {
+      width: 50%;
+
+      .step {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        font-size: 15px;
+        span {
+          font-size: 37px;
+          padding-left: 5%;
+          padding-bottom: 7%;
+        }
+        &:after {
+          position: relative;
+          content: "";
+          height: 70%;
+          width: 1px;
+          top: 0;
+          right: -20%;
+
+          background: $mainColor;
+        }
+      }
+      .stepTx {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        padding-left: 5%;
+        font-size: 30px;
+      }
+      p {
+        border: 1px solid $mainColor;
+        border-left: 0;
+        height: 63%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 2;
+        font-size: 18px;
+        padding: 0 9%;
+      }
+    }
+    figure {
+      width: 50%;
+    }
+  }
+
+  .title {
+    color: $mainColor;
+    height: 17%;
+    border: 1px solid $mainColor;
+    border-left: 0;
+    border-bottom: 0;
+    .myrow {
+      height: 100%;
+    }
+  }
+  .txArea {
+    height: 20%;
+    background: $mainColor;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    .text {
+      color: #fff;
+      width: 11.5vw;
+      text-align: center;
+      font-size: 1vw;
+      display: block;
+    }
+  }
+}

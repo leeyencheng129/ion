@@ -1,0 +1,155 @@
+#about .kv {
+  background: url(../images/about/wavy.jpg) no-repeat;
+  background-size: cover;
+  background-position: 0% 78%;
+  padding: 5% 0;
+}
+
+#about .kv h2 {
+  color: #303030;
+  margin: 0 auto 2.5%;
+}
+
+#about .kv a {
+  color: #de1784;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border: 1px solid #de1784;
+  width: 48%;
+  margin-bottom: 15px;
+  line-height: 4;
+  font-size: 18px;
+  font-weight: 700;
+  background: #fff;
+  text-align: center;
+}
+
+#about .kv a:hover {
+  opacity: 0.7;
+}
+
+#about .kv .myrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 8%;
+}
+
+#about .content {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), color-stop(#f8f8f8), to(#f4f4f4));
+  background: linear-gradient(#f4f4f4, #f8f8f8, #f4f4f4);
+  padding-bottom: 5%;
+}
+
+#about .content:last-child {
+  padding-bottom: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), color-stop(#fafafa), to(#fff));
+  background: linear-gradient(#f4f4f4, #fafafa, #fff);
+}
+
+#about .content .mycard {
+  background: #fff;
+  padding: 5% 8% 8%;
+  position: relative;
+}
+
+#about .content .mycard:last-child {
+  margin: 0;
+}
+
+#about .content .mycard::after {
+  position: absolute;
+  content: "";
+  bottom: -1%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+  height: 13px;
+  background: url(../images/about/shadow.png) no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+#about .content .mycard p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 2.2;
+  margin-bottom: 1rem;
+}
+
+#about .content .mybox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#about .content .mybox h3 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #de1784;
+  font-size: 24px;
+  line-height: 2;
+}
+
+#about .content .mybox .img {
+  width: 50%;
+}
+
+#about .sec02 .mybox h3 {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: -110px;
+  width: 55%;
+}
+
+#about .sec04 .mybox h3 {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#about .sec05 .mybox h3 {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 40%;
+  margin-right: -30px;
+}
+
+#about .sec05 .mybox .img {
+  width: 60%;
+}
+
+.bg {
+  background: url(../images/about/wavy.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 25vw;
+  margin-top: -15vw;
+}

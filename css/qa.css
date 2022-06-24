@@ -1,0 +1,127 @@
+#qa {
+  background: url(../images/qaBg.jpg) no-repeat;
+  background-size: 100%;
+  background-position: top;
+}
+
+#qa h2 {
+  border-bottom: 0;
+  margin: 0;
+  font-size: 36px;
+  width: 100%;
+  text-align: left;
+}
+
+#qa h2 span {
+  color: #303030;
+  font-size: 20px;
+  margin-left: 2%;
+}
+
+#qa h4 {
+  font-size: 24px;
+  color: #de1784;
+  position: relative;
+  padding-left: 20px;
+  margin: 1% 0 2% 0;
+}
+
+#qa h4::before {
+  position: absolute;
+  font-family: "icomoon" !important;
+  content: "\e037";
+  font-size: 15px;
+  top: 50%;
+  left: 0%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.myrow {
+  background: #fff;
+  padding: 5% 5%;
+  margin: 0% 0 10% 0%;
+}
+
+.accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 0 3% 0 9%;
+  width: 100%;
+  border: 1px solid #303030;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  position: relative;
+  line-height: 2;
+}
+
+.accordion::before {
+  position: absolute;
+  content: "Q";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background: #de1784;
+}
+
+.active,
+.accordion:hover {
+  color: #de1784;
+}
+
+.accordion:after {
+  content: "\002B";
+  position: absolute;
+  color: #de1784;
+  font-weight: bold;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 3%;
+}
+
+.active:after {
+  content: "\2212";
+  color: #303030;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #f7f7f7;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+  margin-bottom: 3%;
+}
+
+.panel p {
+  font-size: 18px;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+.sec01 + .sec01 {
+  margin-top: 7%;
+}
+
+.padLC {
+  padding-top: 8%;
+}

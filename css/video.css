@@ -1,0 +1,113 @@
+#video {
+  background: url(../images/video/bg.png) no-repeat;
+  background-size: 100%;
+  background-position: top;
+  padding: 3% 0 8%;
+}
+
+#video .kv {
+  margin: 0 0 3%;
+}
+
+#video h2 {
+  color: #303030;
+  margin-bottom: 0%;
+}
+
+#video .myrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#video .txArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 75%;
+  padding: 0 0 1.3% 4.5%;
+}
+
+#video .video {
+  padding: 5% 3%;
+}
+
+#video .video video {
+  width: 100%;
+}
+
+#video .sec {
+  background: #fff;
+  border: 1px solid #de1784;
+  padding: 8% 10%;
+}
+
+#video .sec + .sec {
+  margin-top: 8%;
+}
+
+#video .content {
+  text-align: center;
+}
+
+#video .title {
+  border-bottom: 1px solid #de1784;
+  color: #de1784;
+  padding-bottom: 2%;
+  font-weight: 500;
+}
+
+#video .title .number {
+  width: 25%;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  line-height: 1.5;
+  position: relative;
+}
+
+#video .title .number::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: #de1784;
+}
+
+#video .title .number span {
+  padding-left: 8%;
+  font-size: 48px;
+  line-height: 1.05;
+}
+
+#video .title .title_tx {
+  font-size: 30px;
+  line-height: 1;
+}
+
+#video .title .nar {
+  font-size: 18px;
+  line-height: 1;
+  padding-left: 4.5%;
+}
+
+#video p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+#video p + p {
+  margin-top: 1.5%;
+}

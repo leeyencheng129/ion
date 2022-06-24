@@ -1,0 +1,638 @@
+@import "./var.scss";
+@media screen and (max-width: 1440px) {
+  // ----index---- //
+  p {
+    font-size: 1.2vw;
+  }
+  .site-navbar .row {
+    margin-right: 0;
+  }
+  .site-navbar .container .site-logo {
+    width: 10vw;
+    margin-left: 2vw;
+  }
+  .navDec li a {
+    font-size: 1.4vw !important;
+  }
+  .slick-slide {
+    width: 70vw;
+  }
+  .slick-dots li button:before {
+    font-size: 1.3vw;
+  }
+  .slogan p {
+    font-size: 1.2vw;
+  }
+  .Btn {
+    font-size: 1.1vw;
+    width: 10vw;
+  }
+  h2 {
+    font-size: 2vw;
+  }
+  h3 {
+    font-size: 1.8vw;
+  }
+  .container {
+    max-width: 830px;
+  }
+  .skinCare .mycard h3 {
+    font-size: 1.6vw;
+  }
+  .skinCare .mycard h4 {
+    font-size: 1.2vw;
+  }
+  .skinCare .mycard p {
+    font-size: 1.2vw;
+  }
+  .skinCare .mycard {
+    height: 17vw;
+  }
+  .catagory .mycard .tx h3 {
+    font-size: 1.5vw;
+  }
+  .catagory .mycard .tx h4 {
+    font-size: 1vw;
+  }
+  .pinkBtn {
+    font-size: 0.5vw;
+    width: 7vw;
+    line-height: 2.3;
+  }
+  .catagory .mycard .tx {
+    padding: 3vw 0 0 0;
+  }
+  .catagory .mycard figure img {
+    margin-top: 2.2vw;
+  }
+  .beauty p {
+    font-size: 1.2vw;
+  }
+  .beauty .mycard .tx h3 {
+    font-size: 1.5vw;
+  }
+  .beauty .mycard .tx p {
+    font-size: 1.1vw;
+  }
+  footer figure {
+    width: 10vw;
+  }
+  footer ul li {
+    font-size: 1.4vw;
+  }
+  footer ul li:after {
+    top: 50%;
+    transform: translateY(-50%);
+    right: -1.8vw;
+  }
+  footer p {
+    font-size: 1vw;
+  }
+
+  // ----about---- //
+  #about .content .mycard p {
+    font-size: 1.2vw;
+  }
+  #about .content .mybox h3 {
+    font-size: 1.7vw;
+  }
+  // ----qa---- //
+  #qa {
+    h4 {
+      font-size: 1.6vw;
+    }
+    .accordion,
+    .panel p {
+      font-size: 1.2vw;
+    }
+  }
+
+  // ----warm---- //
+  #warm {
+    p {
+      font-size: 1.2vw !important;
+    }
+    .stepTx {
+      font-size: 2vw !important;
+    }
+    .content .tx .step span {
+      font-size: 2vw !important;
+    }
+    .step {
+      font-size: 1vw !important;
+    }
+  }
+
+  // ----video---- //
+  #video {
+    p {
+      font-size: 1.2vw;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .site-navbar .container .site-logo {
+    width: 20vw;
+    margin-left: 0;
+  }
+  .site-navbar .container .row {
+    padding: 1vw 0;
+  }
+  .userCart li:first-child:before,
+  .navDec li::after {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 3vw;
+  }
+  .pc {
+    display: none !important;
+  }
+  .sp {
+    display: block !important;
+  }
+  .slick-slide {
+    width: 100vw;
+  }
+  .slogan p {
+    font-size: 4vw;
+    width: 88%;
+    margin: auto;
+    line-height: 2;
+  }
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+  .site-navbar .container .site-logo {
+    margin-left: 3vw !important;
+  }
+
+  .navDec li a {
+    font-size: 4.5vw !important;
+  }
+  .navDec li a > span {
+    padding: 5px 2vw;
+  }
+  .hamburger {
+    padding: 0 !important;
+  }
+  header {
+    padding: 1.5vw 0;
+  }
+  .skinCare .mycard h4 {
+    font-size: 3vw;
+  }
+  .slick-dots li button:before {
+    font-size: 4.3vw;
+  }
+  .Btn {
+    width: 30vw;
+    font-size: 3.4vw;
+  }
+  .slogan {
+    margin: 15vw 0;
+  }
+  .myh2 {
+    font-size: 6vw;
+  }
+  .skinCare {
+    padding: 10vw 0;
+    background-position: -100vw;
+  }
+  .skinCare .content {
+    width: 90%;
+    margin: auto;
+  }
+  .skinCare .mycard {
+    height: 50vw;
+    padding: 0 4vw;
+  }
+  .skinCare .mycard h3 {
+    font-size: 4.5vw;
+  }
+  .skinCare .mycard {
+    p {
+      font-size: 3.2vw;
+      span {
+        font-size: 3.2vw;
+      }
+    }
+  }
+  .catagory {
+    margin: 7vw 0;
+  }
+  .catagory .mycard {
+    width: 90%;
+    margin: 3vw auto;
+    background-size: 100% !important;
+  }
+  .catagory .mycard figure img {
+    width: 64%;
+    margin-top: 7px;
+  }
+  .catagory .mycard figure {
+    width: 35vw;
+  }
+  .catagory .mycard .tx h3 {
+    font-size: 5.4vw;
+  }
+  .pinkBtn {
+    font-size: 2vw;
+    width: 20vw;
+    line-height: 1.8;
+  }
+  .catagory .mycard .tx {
+    padding: 5.9vw 0 0 0;
+  }
+  .beauty {
+    background: url(../images/bg2_sp.jpg) no-repeat;
+    background-position: initial;
+    background-size: cover;
+    padding: 5vw 0 15vw;
+  }
+
+  .beauty p {
+    font-size: 4vw;
+    width: 90%;
+    margin: 5vw auto;
+  }
+  .beauty .mycard {
+    flex-wrap: wrap;
+  }
+  .beauty .mycard .tx,
+  .beauty .mycard figure {
+    width: 100%;
+    margin: 4vw 0;
+    margin-bottom: 0;
+  }
+  .beauty .mycard .tx h3 {
+    font-size: 5vw;
+  }
+  .beauty .mycard .tx p {
+    font-size: 3.2vw;
+    width: 100%;
+  }
+  .beauty .mycard {
+    width: 90%;
+    margin: 8vw auto;
+    padding: 5vw 5vw 0;
+  }
+  footer {
+    padding: 8vw 0;
+  }
+  footer figure {
+    width: 30vw;
+  }
+  footer ul li:after {
+    display: none;
+  }
+  footer ul {
+    width: 38%;
+    flex-wrap: wrap;
+    margin: 5.5% auto 0;
+    &:nth-of-type(2) {
+      width: 38%;
+      margin-bottom: 3%;
+    }
+  }
+  footer p {
+    font-size: 2.5vw;
+  }
+  footer ul li {
+    font-size: 3.9vw;
+    margin: 1vw 0;
+    font-weight: 400;
+  }
+  .site-mobile-menu .site-nav-wrap a {
+    font-weight: 600;
+  }
+
+  // ----about---- //
+  #about .kv {
+    padding: 10vw 0;
+  }
+  #about .kv h2 {
+    margin: 0 auto 5vw;
+  }
+  #about .kv a {
+    font-size: 3.9vw;
+    line-height: 2;
+    height: 20vw;
+    align-items: center;
+    margin-bottom: 1.5vw;
+  }
+  #about .content {
+    padding: 0 9vw 10vw;
+    h2 {
+      font-size: 6vw;
+    }
+  }
+  #about .content .mybox {
+    flex-wrap: wrap;
+  }
+  #about .content .mybox h3,
+  #about .content .mybox .img {
+    width: 100%;
+  }
+  #about .content .mybox h3 {
+    font-size: 4vw;
+    text-align: center;
+  }
+  .sec02 h3,
+  .sec04 h3,
+  .sec05 h3 {
+    justify-content: center !important;
+  }
+
+  .sec04 {
+    h3 {
+      justify-content: center !important;
+    }
+  }
+  .sec05 {
+    h3 {
+      justify-content: center !important;
+    }
+  }
+  #about .content .mycard p {
+    font-size: 3.4vw;
+    line-height: 1.8;
+  }
+
+  // ----product---- //
+  #product .myBox {
+    flex-wrap: wrap;
+    padding: 10vw 9vw;
+  }
+  #product .myBox figure {
+    width: 100%;
+  }
+  #product .myBox .info {
+    width: 100%;
+  }
+  #product h2 {
+    text-align: center;
+    font-size: 7vw;
+    border-bottom: 1px solid #de1784;
+  }
+  #product .sec p {
+    line-height: 1.7;
+  }
+  #product .sec p,
+  #product .skin p {
+    font-size: 3.4vw;
+  }
+  #product h4 {
+    font-size: 5vw;
+  }
+  #product .productName p {
+    font-size: 4.5vw;
+  }
+  #product .ml,
+  #product .inbox {
+    font-size: 5vw;
+    line-height: 1;
+  }
+  #product .price {
+    font-size: 7vw;
+    line-height: 1;
+  }
+  #product .sec {
+    margin: 10vw 0;
+  }
+  #product .dec:after {
+    height: 0.05vw;
+  }
+
+  // ----history---- //
+
+  #history {
+    .myrow {
+      padding: 7vw 7vw;
+    }
+    .com {
+      p {
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+        font-size: 4.2vw;
+      }
+    }
+    h2 {
+      font-size: 7vw;
+    }
+    .dec:after {
+      height: 0.05vw;
+    }
+    .item {
+      flex-wrap: wrap;
+    }
+    h5 {
+      width: 100%;
+      font-size: 4.5vw;
+    }
+    .item {
+      margin: 3vw 0;
+    }
+    .his {
+      h5 {
+        text-align: left;
+        line-height: 1;
+        font-size: 4.5vw;
+        padding: 2.7vw 2.7vw 2vw;
+      }
+      p {
+        padding-left: 0;
+        line-height: 1;
+        font-size: 4.2vw;
+        padding: 0 2.7vw 2.7vw;
+      }
+    }
+  }
+
+  // ----qa---- //
+  #qa {
+    background: url(../images/qaBg_sp.jpg) no-repeat;
+    background-size: 100%;
+    background-position: top;
+    .myrow {
+      margin: 8% 8% 10%;
+    }
+    h2 span {
+      font-size: 3vw;
+    }
+    h4 {
+      font-size: 4.5vw;
+      margin: 2vw 0 4vw;
+    }
+    .accordion,
+    .panel p {
+      font-size: 3.9vw;
+    }
+    .accordion {
+      padding: 3vw 6vw 3vw 14vw;
+      line-height: 1.5;
+      &::before {
+        width: 10vw;
+      }
+    }
+    .panel {
+      margin-bottom: 4vw;
+      p {
+        padding: 0 2vw;
+        font-size: 3.4vw;
+      }
+    }
+  }
+
+  // ----warm---- //
+  #warm {
+    padding: 0 5% 10vw;
+    .kv .tx,
+    .kv figure {
+      width: 100%;
+    }
+    .kv {
+      .myrow {
+        flex-wrap: wrap;
+      }
+      figure {
+        margin-left: 0;
+        margin: 5vw auto 0vw;
+        width: 90%;
+      }
+      p {
+        font-size: 3.8vw !important;
+      }
+    }
+    .myrow {
+      flex-wrap: wrap;
+    }
+    .content {
+      margin: 12vw 0;
+      figure {
+        width: 100%;
+      }
+      .tx {
+        width: 100%;
+      }
+    }
+  }
+  #warm .step {
+    border-left: 1px solid $mainColor;
+    font-size: 2vw !important;
+  }
+  #warm .stepTx {
+    font-size: 5vw !important;
+  }
+  #warm p {
+    font-size: 3.4vw !important;
+  }
+  #warm .content .tx .step span {
+    font-size: 5vw !important;
+    padding-bottom: 0.5vw;
+  }
+  #warm .content .tx p {
+    border-left: 1px solid $mainColor;
+    height: 40vw;
+  }
+  #warm .title {
+    height: 15vw;
+    border-top: 0;
+  }
+  #warm .txArea {
+    height: 15vw;
+  }
+  #warm .txArea .text {
+    width: 38vw;
+    font-size: 3.4vw;
+  }
+
+  // ----video---- //
+  #video {
+    background-size: 450%;
+    .kv {
+      margin: 0vw 0 10vw;
+    }
+    padding: 5vw 5vw 10vw;
+    .title {
+      border-bottom: 0;
+      .myrow {
+        flex-wrap: wrap;
+      }
+      .number {
+        width: 100%;
+        border-bottom: 1px solid $mainColor;
+        font-size: 3vw;
+        padding-bottom: 2vw;
+        span {
+          font-size: 8vw;
+          padding-left: 3vw;
+        }
+        &:after {
+          display: none;
+        }
+      }
+    }
+    .txArea {
+      width: 100%;
+      flex-wrap: wrap;
+      text-align: center;
+      padding: 2vw 0 0;
+      .title_tx {
+        width: 100%;
+        font-size: 5vw;
+        line-height: 2;
+      }
+      .nar {
+        width: 100%;
+        font-size: 4vw;
+        padding-left: 0;
+      }
+    }
+    .sec {
+      padding: 6vw 5vw 8vw;
+      + .sec {
+        margin-top: 10vw;
+      }
+    }
+    p {
+      font-size: 3.4vw;
+    }
+  }
+
+  // ----contact---- //
+  #contact {
+    .myrow {
+      padding: 8vw 5vw 12vw;
+    }
+    h2,
+    h3 {
+      font-size: 5vw;
+      margin-bottom: 3vw;
+    }
+    p {
+      font-size: 3.4vw;
+    }
+    .contactBtn {
+      width: 100%;
+      margin-bottom: 3vw;
+      a {
+        text-align: center;
+        display: block;
+        line-height: 2.5;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .catagory .mycard figure img {
+    width: 100%;
+  }
+  .catagory .mycard {
+    margin: 2vw auto;
+  }
+}

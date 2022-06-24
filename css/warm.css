@@ -1,0 +1,162 @@
+#warm {
+  padding-bottom: 8%;
+}
+
+#warm .myrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#warm h2 {
+  font-size: 30px;
+  color: #de1784;
+  border-bottom: 1px solid #de1784;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-weight: 600;
+}
+
+#warm h3 {
+  line-height: 1.8;
+  font-size: 24px;
+}
+
+#warm .kv {
+  padding-top: 8%;
+}
+
+#warm .kv .tx {
+  text-align: center;
+  width: 50%;
+}
+
+#warm .kv figure {
+  width: 60%;
+  margin-left: -10%;
+}
+
+#warm .kv p {
+  line-height: 2;
+  margin-top: 3%;
+  font-size: 16px;
+}
+
+#warm .warm1 .myrow {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#warm .warm3 img {
+  width: 60%;
+  margin-left: 30%;
+}
+
+#warm .content {
+  margin: 7% 0;
+}
+
+#warm .content .tx {
+  width: 50%;
+}
+
+#warm .content .tx .step {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  font-size: 15px;
+}
+
+#warm .content .tx .step span {
+  font-size: 37px;
+  padding-left: 5%;
+  padding-bottom: 7%;
+}
+
+#warm .content .tx .step:after {
+  position: relative;
+  content: "";
+  height: 70%;
+  width: 1px;
+  top: 0;
+  right: -20%;
+  background: #de1784;
+}
+
+#warm .content .tx .stepTx {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5%;
+  font-size: 30px;
+}
+
+#warm .content .tx p {
+  border: 1px solid #de1784;
+  border-left: 0;
+  height: 63%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 2;
+  font-size: 18px;
+  padding: 0 9%;
+}
+
+#warm .content figure {
+  width: 50%;
+}
+
+#warm .title {
+  color: #de1784;
+  height: 17%;
+  border: 1px solid #de1784;
+  border-left: 0;
+  border-bottom: 0;
+}
+
+#warm .title .myrow {
+  height: 100%;
+}
+
+#warm .txArea {
+  height: 20%;
+  background: #de1784;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5%;
+}
+
+#warm .txArea .text {
+  color: #fff;
+  width: 11.5vw;
+  text-align: center;
+  font-size: 1vw;
+  display: block;
+}

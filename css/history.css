@@ -1,0 +1,72 @@
+#history {
+  background: url(../images/historyBg.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+#history .myrow {
+  padding: 8% 0;
+}
+
+#history section {
+  background: #fff;
+  padding: 3% 5% 7%;
+}
+
+#history section + section {
+  margin-top: 5%;
+}
+
+#history h2 {
+  font-size: 36px;
+  border-bottom: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #fff;
+  z-index: 2;
+  position: relative;
+  padding-right: 3%;
+  margin: 0;
+}
+
+#history .dec:after {
+  background: #de1784;
+}
+
+#history .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2% 0;
+}
+
+#history .item p {
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+#history h5 {
+  background: #f7f7f7;
+  color: #de1784;
+  font-size: 16px;
+  width: 110px;
+  text-align: center;
+  line-height: 1.9;
+  font-weight: 600;
+}
+
+#history .his h5 {
+  line-height: 2.4;
+}
+
+#history .his p {
+  background: #f7f7f7;
+  line-height: 1.9;
+  font-size: 20px;
+  width: 100%;
+}

@@ -1,0 +1,112 @@
+@import "./var.scss";
+#qa {
+  background: url(../images/qaBg.jpg) no-repeat;
+  background-size: 100%;
+  background-position: top;
+  h2 {
+    border-bottom: 0;
+    margin: 0;
+    font-size: 36px;
+    width: 100%;
+    text-align: left;
+    span {
+      color: $black;
+      font-size: 20px;
+      margin-left: 2%;
+    }
+  }
+  h4 {
+    font-size: 24px;
+    color: $mainColor;
+    position: relative;
+    padding-left: 20px;
+    margin: 1% 0 2% 0;
+    &::before {
+      position: absolute;
+      font-family: "icomoon" !important;
+      content: "\e037";
+      font-size: 15px;
+      top: 50%;
+      left: 0%;
+      transform: translateY(-50%);
+    }
+  }
+}
+.myrow {
+  background: #fff;
+  padding: 5% 5%;
+  margin: 0% 0 10% 0%;
+}
+
+.accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 0 3% 0 9%;
+  width: 100%;
+  border: 1px solid $black;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  position: relative;
+  line-height: 2;
+  &::before {
+    position: absolute;
+    content: "Q";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: $mainColor;
+  }
+}
+
+.active,
+.accordion:hover {
+  color: $mainColor;
+}
+
+.accordion:after {
+  content: "\002B";
+  position: absolute;
+  color: $mainColor;
+  font-weight: bold;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 3%;
+}
+
+.active:after {
+  content: "\2212";
+  color: $black;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #f7f7f7;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-bottom: 3%;
+  p {
+    font-size: 18px;
+  }
+}
+button:focus {
+  outline: 0 !important;
+}
+
+.sec01 {
+  + .sec01 {
+    margin-top: 7%;
+  }
+}
+
+.padLC {
+  padding-top: 8%;
+}
